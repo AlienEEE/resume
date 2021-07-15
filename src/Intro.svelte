@@ -4,7 +4,7 @@
   export let phone: string = ""
   export let email: string = ""
   export let github: string = ""
-  export let linkedin: string = ""
+  // export let linkedin: string = ""
   export let location: string = ""
   export let website: string = ""
 </script>
@@ -38,17 +38,17 @@
         >{website}</a
       >
     </p>
-    <p>
+    <!-- <p>
       <a
         href={`https://linkedin.com/in/${linkedin}`}
         target="_blank"
         rel="noreferrer">Linkedin</a
       >
-    </p>
+    </p> -->
   </div>
 </div>
 
-<style>
+<style> 
   a {
     text-decoration: underline;
   }
