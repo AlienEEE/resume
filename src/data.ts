@@ -44,9 +44,16 @@ export const educations = [
   },
 ]
 
-export const workExperiences = []
+// export const workExperiences = []
 
-export const projects = []
+export const projects = [
+  {
+    name: "Ship Booking System of Promtongyai Company on Web Application",
+    details:
+      "My senior project. ",
+    url: "https://github.com/AlienEEE/Ship_Booking",
+}
+]
 
 export const interests = [
   "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
